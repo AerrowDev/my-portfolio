@@ -3,7 +3,7 @@ import styles from '@/styles/Home.module.css'
 import Link from 'next/link';
 import 'bootstrap/dist/css/bootstrap.css'
 import Imagenav from '/src/Components/logo-nav'
-import Welcome from "src/components/welcome"
+import Welcome from "src/Components/welcome"
 const Aboutsection = () =>{
     return (
         <section class="home section" id="home">
