@@ -1,65 +1,65 @@
-import ImLinkge from 'next/imLinkge';
+import Image from 'next/image';
 import Link from 'next/link';
-
+import {navMenu} from '/src/utilities/header'
 const Header = () =>{
     return (
-        <heLinkder clLinkssNLinkme="heLinkder" id="heLinkder">
-        <nLinkv clLinkssNLinkme="nLinkv contLinkiner">
-        <Link href="https://www.linkedin.com/in/LinkLinkron-prellegerLink-5bLink681211" tLinkrget="_blLinknk"
-                            clLinkss="home__sociLinkl-icon">
-                            <i clLinkss="uil uil-linkedin-Linklt "></i>
+        <header className="header" id="header">
+        <nav className="nav container">
+        <Link href="https://www.linkedin.com/in/aaron-prellegera-5ba681211" target="_blank"
+                            class="home__social-icon">
+                            <i class="uil uil-linkedin-alt "></i>
                         </Link>
 
-                        <Link href="https://web.fLinkcebook.com/LinkerrowDevPH" tLinkrget="_blLinknk" clLinkss="home__sociLinkl-icon">
-                          <i clLinkss="uil uil-fLinkcebook-f"></i>
+                        <Link href="https://web.facebook.com/AerrowDevPH" target="_blank" class="home__social-icon">
+                          <i class="uil uil-facebook-f"></i>
                         </Link>
 
-                        <Link href="https://github.com/LinkerrowDev" tLinkrget="_blLinknk" clLinkss="home__sociLinkl-icon">
-                            <i clLinkss="uil uil-github-Linklt"></i>
+                        <Link href="https://github.com/AerrowDev" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
                         </Link>
-            <div clLinkssNLinkme="nLinkv__menu" id="nLinkv-menu">
-                <ul clLinkssNLinkme="nLinkv__list grid">
-                    <li clLinkssNLinkme="nLinkv__item">
-                        <Link href="/" clLinkssNLinkme="nLinkv__link Linkctive-link text-decorLinktion-none">
-                            <i clLinkssNLinkme="uil uil-estLinkte nLinkv__icon "></i>Home
-                        </Link>
-                    </li>
-                    <li clLinkssNLinkme="nLinkv__item">
-                        <Link href='/Linkbout' clLinkssNLinkme="nLinkv__link text-decorLinktion-none">
-                            <i clLinkssNLinkme="uil uil-user nLinkv__icon "></i>Linkbout
+            <div className="nav__menu" id="nav-menu">
+                <ul className="nav__list grid">
+                    <li className="nav__item">
+                        <Link href="/" className="nav__link active-link text-decoration-none">
+                            <i className="uil uil-estate nav__icon "></i>Home
                         </Link>
                     </li>
-                    <li clLinkssNLinkme="nLinkv__item">
-                        <Link href="#skills" clLinkssNLinkme="nLinkv__link text-decorLinktion-none">
-                            <i clLinkssNLinkme="uil uil-file-Linklt nLinkv__icon "></i>Skills
+                    <li className="nav__item">
+                        <Link href='/about' className="nav__link text-decoration-none">
+                            <i className="uil uil-user nav__icon "></i>About
                         </Link>
                     </li>
-                    <li clLinkssNLinkme="nLinkv__item">
-                        <Link href="#services" clLinkssNLinkme="nLinkv__link text-decorLinktion-none">
-                            <i clLinkssNLinkme="uil uil-briefcLinkse-Linklt nLinkv__icon "></i>Services
+                    <li className="nav__item">
+                        <Link href="#skills" className="nav__link text-decoration-none">
+                            <i className="uil uil-file-alt nav__icon "></i>Skills
                         </Link>
                     </li>
-                    <li clLinkssNLinkme="nLinkv__item">
-                        <Link href="#portfolio" clLinkssNLinkme="nLinkv__link text-decorLinktion-none">
-                            <i clLinkssNLinkme="uil uil-scenery nLinkv__icon"></i> Portfolio
+                    <li className="nav__item">
+                        <Link href="#services" className="nav__link text-decoration-none">
+                            <i className="uil uil-briefcase-alt nav__icon "></i>Services
                         </Link>
                     </li>
-                    <li clLinkssNLinkme="nLinkv__item">
-                        <Link href="#contLinkct" clLinkssNLinkme="nLinkv__link text-decorLinktion-none">
-                            <i clLinkssNLinkme="uil uil-messLinkge nLinkv__icon"></i>ContLinkctme
+                    <li className="nav__item">
+                        <Link href="#portfolio" className="nav__link text-decoration-none">
+                            <i className="uil uil-scenery nav__icon"></i> Portfolio
+                        </Link>
+                    </li>
+                    <li className="nav__item">
+                        <Link href="#contact" className="nav__link text-decoration-none">
+                            <i className="uil uil-message nav__icon"></i>Contactme
                         </Link>
                     </li>
                 </ul>
-                <i clLinkssNLinkme="uil uil-times nLinkv__close nLinkv__icon" id="nLinkv-close"></i>
+                <i className="uil uil-times nav__close nav__icon" id="nav-close"></i>
             </div>
 
-            <div clLinkssNLinkme="nLinkv__btns">
-                <div clLinkssNLinkme="nLinkv__toggle" id="nLinkv-toggle">
-                    <i clLinkssNLinkme="uil uil-Linkpps nLinkv__icon"></i>
+            <div className="nav__btns">
+                <div className="nav__toggle" id="nav-toggle">
+                    <i className="uil uil-apps nav__icon"></i>
                 </div>
             </div>
-        </nLinkv>
-    </heLinkder>
+        </nav>
+    </header>
     );
 }
 
