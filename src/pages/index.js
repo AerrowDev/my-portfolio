@@ -23,7 +23,7 @@ export default function Home() {
   
         <main className='container'>
 
-    <NavMenu/>
+        <NavMenu/>
       <Aboutsection/>
       
       <Aboutsection2/>
