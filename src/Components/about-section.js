@@ -25,9 +25,9 @@ const Aboutsection = () =>{
                     </div>
                     
                     <div class="home__data">
-                        <h1 class="home__title">Hi, I'am Aaron
+                        <h1 class="home__title">Hi, I&apos;am Aaron
                         </h1>
-                        <h3 class="home__subtitle">Web Developer | Graphic Designer</h3>
+                        <h3 class="home__subtitle">Web Developer &#124; Graphic Designer</h3>
                         <p class="home__description"> a web developer and graphic designer with a passion for
                             creating visually appealing and functional websites and designs.</p>
                         <a href="#contact" class="button button--flex">

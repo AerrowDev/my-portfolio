@@ -11,7 +11,7 @@ const Aboutsection2 = () =>{
         <span class="section__subtitle">My Introduction</span>
 
         <div class="about__container container grid">
-           <Image/>
+     
             <div class="about__data">
                 <p class="about__description">
                     I am a web developer and graphic designer with a passion for creating visually appealing and
@@ -20,18 +20,18 @@ const Aboutsection2 = () =>{
                 </p>
                 <div class="about__info">
                     <div>
-                        <span class="about__info-title">01+</span>
-                        <span class="about__info-name">Year/s  experience</span>
+                        <span class="about__info-title">1</span>
+                        <span class="about__info-name">Year&apos;  experience</span>
                     </div>
 
                     <div>
-                        <span class="about__info-title">15+</span>
+                        <span class="about__info-title">15</span>
                         <span class="about__info-name">Completed  Project</span>
                     </div>
 
                     <div>
-                        <span class="about__info-title">02+</span>
-                        <span class="about__info-name">Companies  worked</span>
+                        <span class="about__info-title">2</span>
+                        <span class="about__info-name">Companies worked</span>
                     </div>
                 </div>
 

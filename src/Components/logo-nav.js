@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Imagenav = () =>{
     return (
         <a class="navbar-brand" href="#">
-        <Image src={'/assets/img/AERROWDEVLOGO.PNG'} className={styles.Image} width={175} height={175}/>
+        <Image src={'/assets/img/AERROWDEVLOGO.PNG'} className={styles.Image} width={175} height={175} alt="LOGO"/>
       </a>
     );
 }
