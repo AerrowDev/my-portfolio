@@ -24,7 +24,7 @@ const Aboutsection = () =>{
                     <p class="home__description"> As a web developer, I&apos;m passionate about building beautiful and functional websites that provide a great user experience.
                      I specialize in using Next.js, a powerful framework for building React-based web applications.</p>
                     <a download="" href="assets/pdf/AaronPrellegera-CV.pdf" class="button button--flex me-4">
-                        Resume<i class="uil uil-message button__icon"></i>
+                      Download Resume<i class="uil uil-download-alt button__icon"></i>
                     </a>
                     <a href="#contact" class="text-dark button--flex">
                         Contact Me

@@ -38,7 +38,7 @@ const Aboutsection2 = () =>{
 
                 <div class="about__buttons">
                     <a download="" href="assets/pdf/AaronPrellegera-CV.pdf" class="button button--flex">
-                        Download CV <i class="uil uil-download-alt button__icon"></i>
+                       Download Resume <i class="uil uil-download-alt button__icon"></i>
                     </a>
                 </div>
             </div>
