@@ -15,6 +15,18 @@ function Header() {
     
     <header className="header" id="header">
       <nav className="nav container">
+        <Link href="https://www.linkedin.com/in/aaron-prellegera-5ba681211" target="_blank"
+                            class="home__social-icon">
+                            <i class="uil uil-linkedin-alt "></i>
+                        </Link>
+
+                        <Link href="https://web.facebook.com/AerrowDevPH" target="_blank" class="home__social-icon">
+                          <i class="uil uil-facebook-f"></i>
+                        </Link>
+
+                        <Link href="https://github.com/AerrowDev" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </Link>
         <div className="nav__menu" id="nav-menu">
           <ul className="nav__list grid ">
             <li className="nav__item">
