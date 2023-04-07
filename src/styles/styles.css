@@ -309,8 +309,29 @@ img {
 
 .home__welcome{
   margin-bottom: 0px;
-
+  animation: shine 1.5s infinite both, print 4s 1s steps(51,end) forwards;
+  overflow: hidden;
+  white-space: nowrap;
 }
+
+@keyframes shine {
+  from {
+    border-right: 1px solid #fff;
+  }
+  to {
+    border-right: 1px solid #000;
+  }
+}
+
+@keyframes print {
+  from {
+    width: 0;
+  }
+  to {
+    width: 376px; /* 待改进 */
+  }
+}
+
 .home__title{
   font-size: var(--big-font-size);
 }
@@ -509,16 +530,31 @@ img {
 
 .skills__bar{
   background-color: var(--first-color-lighter);
+  /* You can modify the total time used for the animation here */
+  animation: load 3s normal forwards;
 }
 
 .skills__percentage{
   display: block;
   background-color: var(--first-color);
+  
 }
 
 .skills__html{
   width: 90%;
+  
+  }
+
+  @keyframes load {
+    0% {
+        width: 0;
+    }
+    100% {
+        /* You need to change the percentage below to match the value in the corresponding <span> */
+        width: 90%;
+    }
 }
+
 
 .skills__css{
   width: 80%;
@@ -531,8 +567,20 @@ img {
   width: 30%;
 }
 
-.skills__java{
+.skills__react-js{
+  width: 45%;
+}
+.skills__next-js{
+  width: 45%;
+}
+.skills__laravel{
   width: 50%;
+}
+.skills__php{
+  width: 50%;
+}
+.skills__github{
+  width: 80%;
 }
 
 .skills__photoshop{

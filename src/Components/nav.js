@@ -35,18 +35,13 @@ function Header() {
               </Link>
             </li>
             <li className="nav__item ">
-              <Link href="/about" className={`nav__link ${isActive('/about') ? 'active-link' : ''}`}style={{ textDecoration: 'none' }}>
+              <Link href="/About" className={`nav__link ${isActive('/About') ? 'active-link' : ''}`}style={{ textDecoration: 'none' }}>
                 <i className="uil uil-user nav__icon"></i>About
               </Link>
             </li>
             <li className="nav__item">
-              <Link href="#skills" className={`nav__link ${isActive('/#skills') ? 'active-link' : ''}`}style={{ textDecoration: 'none' }}>
+              <Link href="/Skills" className={`nav__link ${isActive('/Skills') ? 'active-link' : ''}`}style={{ textDecoration: 'none' }}>
                 <i className="uil uil-file-alt nav__icon"></i>Skills
-              </Link>
-            </li>
-            <li className="nav__item">
-              <Link href="#services" className={`nav__link ${isActive('/#services') ? 'active-link' : ''}`}style={{ textDecoration: 'none' }}>
-                <i className="uil uil-briefcase-alt nav__icon"></i>Services
               </Link>
             </li>
             <li className="nav__item">
