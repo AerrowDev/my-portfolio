@@ -24,7 +24,7 @@ const PortfolioPages = () =>{
         <div class="portfolio__container container swiper-container">
               <div className='container'>
                 <div className='row'>
-                    <div className='col-lg-3 col-md-6 '>
+                    <div className='col-lg-3 col-md-6 mb-3'>
                     <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/mp1.png" alt="" class="portfolio__img " />
                         <div class="portfolio__data">
@@ -53,7 +53,7 @@ const PortfolioPages = () =>{
                         </div>
                     </div>
                     </div>
-                    <div className='col-lg-3 col-md-6 '>
+                    <div className='col-lg-3 col-md-6 mb-3'>
                     <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/mp2.png" alt="" class="portfolio__img"/>
                         <div class="portfolio__data">
@@ -82,7 +82,7 @@ const PortfolioPages = () =>{
                         </div>
                     </div>
                     </div>
-                    <div className='col-lg-3 col-md-6 '>
+                    <div className='col-lg-3 col-md-6 mb-3'>
                    <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/personal-project1.png" alt="" class="portfolio__img"/>
 
@@ -112,7 +112,7 @@ const PortfolioPages = () =>{
                         </div>
                     </div>
                     </div>
-                    <div className='col-lg-3 col-md-6 '>
+                    <div className='col-lg-3 col-md-6 mb-3'>
                     <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/capstone.png" alt="" class="portfolio__img"/>
                         <div class="portfolio__data">
