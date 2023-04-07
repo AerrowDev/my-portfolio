@@ -564,7 +564,7 @@ img {
   width: 75%;
 }
 .skills__js{
-  width: 30%;
+  width: 50%;
 }
 
 .skills__react-js{
@@ -574,13 +574,16 @@ img {
   width: 45%;
 }
 .skills__laravel{
-  width: 50%;
+  width: 40%;
 }
 .skills__php{
-  width: 50%;
+  width: 40%;
+}
+.skills__git{
+  width: 80%;
 }
 .skills__github{
-  width: 80%;
+  width: 85%;
 }
 
 .skills__photoshop{

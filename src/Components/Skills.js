@@ -13,7 +13,7 @@
     skillNumbers.forEach((number) => {
       const limit = parseInt(number.innerHTML, 10);
       let count = 0;
-        
+
       const interval = setInterval(() => {
         count++;
         number.textContent = `${count}%`;
@@ -76,7 +76,7 @@
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name">Javascript</h3>
-                                    <span class="skills__number">30%</span>
+                                    <span class="skills__number">50%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage skills__js"></span>
@@ -103,7 +103,7 @@
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name">Laravel Framework</h3>
-                                    <span class="skills__number">30%</span>
+                                    <span class="skills__number">40%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage skills__laravel"></span>
@@ -112,7 +112,7 @@
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name">PHP</h3>
-                                    <span class="skills__number">30%</span>
+                                    <span class="skills__number">40%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage skills__php"></span>
@@ -121,8 +121,17 @@
 
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Github</h3>
+                                    <h3 class="skills__name">Git</h3>
                                     <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__git"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Github</h3>
+                                    <span class="skills__number">85%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage skills__github"></span>
