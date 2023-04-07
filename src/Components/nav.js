@@ -5,10 +5,44 @@ import styles from '@/styles/Home.module.css'
 import { useRouter } from 'next/router';
 
 function Header() {
-  const router = useRouter();
+  
+  const navMenu = document.getElementById('nav-menu'),
+  navToggle = document.getElementById('nav-toggle'),
+  navClose  =  document.getElementById('nav-close')
+  if (typeof window !== 'undefined') {
+    const navMenu = document.getElementById('nav-menu');
+    // ...
+  }
+  
+  if(navToggle){
+    navToggle.addEventListener('click', () =>{
+      navMenu.classList.add('show-menu')
+
+    })
+}
+
+/*===== MENU HIDDEN =====*/
+/* Validate if constant exists */
+if(navClose){
+    navClose.addEventListener('click', () =>{
+        navMenu.classList.remove('show-menu')
+    })
+}
+/*==================== REMOVE MENU MOBILE ====================*/
+const navLink = document.querySelectorAll('.nav__link')
+
+function linkAction(){
+    const navMenu = document.getElementById('nav-menu')
+    //When we click on each nav__link, we remove the show-menu class
+    navMenu.classList.remove('show-menu')
+}   
+navLink.forEach(n => n.addEventListener('click', linkAction))
+
+const router = useRouter();
 
   function isActive(pathname) {
     return router.pathname === pathname;
+    
   }
 
   return (
@@ -16,17 +50,16 @@ function Header() {
     <header className="header" id="header">
       <nav className="nav container">
         <Link href="https://www.linkedin.com/in/aaron-prellegera-5ba681211" target="_blank"
-                            class="home__social-icon">
-                            <i class="uil uil-linkedin-alt "></i>
-                        </Link>
+            class="home__social-icon">
+            <i class="uil uil-linkedin-alt "></i>
+          </Link>
+          <Link href="https://web.facebook.com/AerrowDevPH" target="_blank" class="home__social-icon">
+            <i class="uil uil-facebook-f"></i>
+          </Link>
 
-                        <Link href="https://web.facebook.com/AerrowDevPH" target="_blank" class="home__social-icon">
-                          <i class="uil uil-facebook-f"></i>
-                        </Link>
-
-                        <Link href="https://github.com/AerrowDev" target="_blank" class="home__social-icon">
-                            <i class="uil uil-github-alt"></i>
-                        </Link>
+          <Link href="https://github.com/AerrowDev" target="_blank" class="home__social-icon">
+              <i class="uil uil-github-alt"></i>
+          </Link>
         <div className="nav__menu" id="nav-menu">
           <ul className="nav__list grid ">
             <li className="nav__item">
