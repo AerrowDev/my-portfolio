@@ -49,15 +49,15 @@ function Header() {
     <header className="header" id="header">
       <nav className="nav container">
           <Link href="https://www.linkedin.com/in/aaron-prellegera-5ba681211" target="_blank"
-                class="home__social-icon">
+                className="home__social-icon">
                 <i class="uil uil-linkedin-alt "></i>
           </Link>
 
-          <Link href="https://web.facebook.com/AerrowDevPH" target="_blank" class="home__social-icon">
+          <Link href="https://web.facebook.com/AerrowDevPH" target="_blank" className="home__social-icon">
             <i class="uil uil-facebook-f"></i>
           </Link>
 
-          <Link href="https://github.com/AerrowDev" target="_blank" class="home__social-icon">
+          <Link href="https://github.com/AerrowDev" target="_blank" className="home__social-icon">
               <i class="uil uil-github-alt"></i>
           </Link>
         <div className="nav__menu" id="nav-menu">
@@ -78,7 +78,7 @@ function Header() {
               </Link>
             </li>
             <li className="nav__item">
-              <Link href="#portfolio" className={`nav__link ${isActive('/#portfolio') ? 'active-link' : ''}`}style={{ textDecoration: 'none' }}>
+              <Link href="/portfolio" className={`nav__link ${isActive('/portfolio') ? 'active-link' : ''}`}style={{ textDecoration: 'none' }}>
                 <i className="uil uil-scenery nav__icon"></i> Portfolio
               </Link>
             </li>

@@ -825,6 +825,12 @@ img {
   margin-bottom: var(--mb-0-75);
 }
 
+.isDisabled{
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
 .portfolio__button:hover .button__icon{
   transform: translateX(.25rem);
 }

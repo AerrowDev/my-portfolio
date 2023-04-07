@@ -3,7 +3,12 @@ import styles from '@/styles/Home.module.css'
 import Link from 'next/link';
 import 'bootstrap/dist/css/bootstrap.css'
 import Imagenav from '/src/Components/logo-nav'
+import { useEffect, useRef } from 'react';
+import CountUp from 'countup.js';
 const Aboutsection2 = () =>{
+    
+
+  
     return (
       
     <section class="about section" id="about">
@@ -21,17 +26,17 @@ const Aboutsection2 = () =>{
                 </p>
                 <div class="about__info">
                     <div>
-                        <span class="about__info-title">01+</span>
-                        <span class="about__info-name">Year/s <br/> experience</span>
+                        <span class="about__info-title" >01</span>
+                        <span class="about__info-name" >Year/s <br/> experience</span>
                     </div>
 
                     <div>
-                        <span class="about__info-title">5+</span>
+                        <span class="about__info-title" >05</span>
                         <span class="about__info-name">Completed <br/> Project</span>
                     </div>
 
                     <div>
-                        <span class="about__info-title">02+</span>
+                        <span class="about__info-title" >02</span>
                         <span class="about__info-name">Companies <br/> worked</span>
                     </div>
                 </div>
@@ -45,8 +50,6 @@ const Aboutsection2 = () =>{
         </div>
 
     </section>
-
-
     );
 }
 
