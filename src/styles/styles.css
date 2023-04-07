@@ -309,7 +309,14 @@ img {
 
 .home__welcome{
   margin-bottom: 0px;
-  animation: shine 1.5s infinite both, print 4s 1s steps(51,end) forwards;
+ 
+}
+
+
+
+.home__title{
+  font-size: var(--big-font-size);
+   animation: shine 1.5s infinite both, print 1.4s 1s steps(10,end) forwards;
   overflow: hidden;
   white-space: nowrap;
 }
@@ -328,12 +335,8 @@ img {
     width: 0;
   }
   to {
-    width: 376px; /* 待改进 */
+    width: 310px; 
   }
-}
-
-.home__title{
-  font-size: var(--big-font-size);
 }
 
 .home__subtitle{

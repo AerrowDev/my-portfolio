@@ -1,58 +1,58 @@
-import Image from 'next/image';
 import Link from 'next/link';
-import {navMenu} from '/src/utilities/header'
+import {Navimenu} from '/src/utilities/header'
 import styles from '@/styles/Home.module.css'
+import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 
 function Header() {
-  
-  const navMenu = document.getElementById('nav-menu'),
-  navToggle = document.getElementById('nav-toggle'),
-  navClose  =  document.getElementById('nav-close')
-  if (typeof window !== 'undefined') {
-    const navMenu = document.getElementById('nav-menu');
-    // ...
-  }
-  
-  if(navToggle){
-    navToggle.addEventListener('click', () =>{
-      navMenu.classList.add('show-menu')
-
-    })
-}
-
-/*===== MENU HIDDEN =====*/
-/* Validate if constant exists */
-if(navClose){
-    navClose.addEventListener('click', () =>{
-        navMenu.classList.remove('show-menu')
-    })
-}
-/*==================== REMOVE MENU MOBILE ====================*/
-const navLink = document.querySelectorAll('.nav__link')
-
-function linkAction(){
-    const navMenu = document.getElementById('nav-menu')
-    //When we click on each nav__link, we remove the show-menu class
-    navMenu.classList.remove('show-menu')
-}   
-navLink.forEach(n => n.addEventListener('click', linkAction))
-
-const router = useRouter();
+  const router = useRouter();
 
   function isActive(pathname) {
     return router.pathname === pathname;
-    
   }
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const Navimenu = document.getElementById('nav-menu'),
+        navToggle = document.getElementById('nav-toggle'),
+        navClose = document.getElementById('nav-close');
+
+      if (navToggle) {
+        navToggle.addEventListener('click', () => {
+          Navimenu.classList.add('show-menu');
+        });
+      }
+
+      /*===== MENU HIDDEN =====*/
+      /* Validate if constant exists */
+      if (navClose) {
+        navClose.addEventListener('click', () => {
+          Navimenu.classList.remove('show-menu');
+        });
+      }
+
+      /*==================== REMOVE MENU MOBILE ====================*/
+      const navLink = document.querySelectorAll('.nav__link');
+
+      function linkAction() {
+        const Navimenu = document.getElementById('nav-menu');
+        //When we click on each nav__link, we remove the show-menu class
+        Navimenu.classList.remove('show-menu');
+      }
+
+      navLink.forEach((n) => n.addEventListener('click', linkAction));
+    }
+  }, []);
 
   return (
     
     <header className="header" id="header">
       <nav className="nav container">
-        <Link href="https://www.linkedin.com/in/aaron-prellegera-5ba681211" target="_blank"
-            class="home__social-icon">
-            <i class="uil uil-linkedin-alt "></i>
+          <Link href="https://www.linkedin.com/in/aaron-prellegera-5ba681211" target="_blank"
+                class="home__social-icon">
+                <i class="uil uil-linkedin-alt "></i>
           </Link>
+
           <Link href="https://web.facebook.com/AerrowDevPH" target="_blank" class="home__social-icon">
             <i class="uil uil-facebook-f"></i>
           </Link>
