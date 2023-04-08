@@ -8,7 +8,6 @@ const PortfolioPage = () => {
         <>
         <Head>
         <title>AerrowDev &#124; Portfolio</title>
-        <script src="/assets/js/swiper-bundle.min.js"></script>
          </Head>
           <main>
           <Header/>

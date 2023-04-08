@@ -6,16 +6,7 @@ import Swiper from 'swiper';
 import 'swiper/swiper-bundle.css';
 import { useEffect } from 'react';
 const PortfolioPages = () =>{
-    useEffect(() => {
-        const script = document.createElement('script');
-        script.src = '/assets/js/swiper-bundle.min.js';
-        script.async = true;
-        document.body.appendChild(script);
-    
-        return () => {
-          document.body.removeChild(script);
-        };
-      }, []);
+  
     return (
        
         <section class="portfolio section" id="portfolio">
@@ -42,7 +33,7 @@ const PortfolioPages = () =>{
                                         </tr>
                                         <tr>
                                             <td class="py-2">
-                                            <a href="https://aerrowdev.github.io/MiniProject01/" class="button button--flex button--smal portfolio__button mt-2">
+                                            <a href="https://aerrowdev.github.io/MiniProject01/" class="button button--flex button--smal portfolio__button mt-2" target="_blank">
                                                 Demo
                                                 <i class="uil uil-arrow-right button__icon"></i>
                                             </a>
@@ -71,7 +62,7 @@ const PortfolioPages = () =>{
                                         </tr>
                                         <tr>
                                             <td class="py-2">
-                                            <a href="https://aerrowdev.github.io/Mini-Project-II/" class="button button--flex button--smal portfolio__button mt-2">
+                                            <a href="https://aerrowdev.github.io/Mini-Project-II/" class="button button--flex button--smal portfolio__button mt-2" target="_blank">
                                                 Demo
                                                 <i class="uil uil-arrow-right button__icon"></i>
                                             </a>
@@ -101,7 +92,7 @@ const PortfolioPages = () =>{
                                         </tr>
                                         <tr>
                                             <td class="py-2">
-                                            <a href="#" class="button button--flex button--smal portfolio__button isDisabled mt-2"  title="Under construction">
+                                            <a href="#" class="button button--flex button--smal portfolio__button isDisabled mt-2"  title="Under construction" target="_blank">
                                                 Demo
                                                 <i class="uil uil-arrow-right button__icon"></i>
                                             </a>
@@ -130,7 +121,7 @@ const PortfolioPages = () =>{
                                         </tr>
                                         <tr>
                                             <td class="py-2">
-                                            <a href="http://www.gamecom.store/home" class="button button--flex button--smal portfolio__button mt-2">
+                                            <a href="http://www.gamecom.store/home" class="button button--flex button--smal portfolio__button mt-2" target="_blank">
                                                 Demo
                                                 <i class="uil uil-arrow-right button__icon"></i>
                                             </a>

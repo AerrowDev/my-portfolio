@@ -4,8 +4,8 @@ import Link from 'next/link';
 const Footer = () =>{
     return (
     <footer className="footer">
-       <div class="footer__bg">
-        <p class="footer-text text-center  text-white"> &#169; 2023 AerrowDev. All Right Reserved</p>
+       <div className="footer__bg">
+        <p className="footer-text text-center  text-white"> &#169; 2023 AerrowDev. All Right Reserved</p>
        </div>
     </footer>
     );

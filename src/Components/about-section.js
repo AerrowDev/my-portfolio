@@ -6,42 +6,42 @@ import Imagenav from '/src/Components/logo-nav'
 import Welcome from "src/Components/welcome"
 const Aboutsection = () =>{
     return (
-        <section class="home section" id="home">
+        <section className="home section" id="home">
 
-        <div class="home__container container grid">
-            <div class="home__content grid">
-                <div class="home__social">
+        <div className="home__container container grid">
+            <div className="home__content grid">
+                <div className="home__social">
                    
                     
                 </div>
-               <Welcome  class="home__img"/>
+               <Welcome  className="home__img"/>
 
-                <div class="home__data">
-                <p class=" home__welcome text-muted text-uppercase "> Let&apos;s collaborate and bring our ideas to life.</p>
-                    <h1 class="home__title">Hi, I&apos;am Aaron
+                <div className="home__data">
+                <p className=" home__welcome text-muted text-uppercase "> Let&apos;s collaborate and bring our ideas to life.</p>
+                    <h1 className="home__title">Hi, I&apos;am Aaron
                     </h1>
-                    <h3 class="home__subtitle">Web Developer &#124; Graphic Designer</h3>
-                    <p class="home__description"> I am a web developer with a passion for building beautiful and functional websites that provide a great user experience.
+                    <h3 className="home__subtitle">Web Developer &#124; Graphic Designer</h3>
+                    <p className="home__description"> I am a web developer with a passion for building beautiful and functional websites that provide a great user experience.
                      I specialize in using Next.js, a powerful framework for building React-based web applications. Additionally,
                      I have a background in graphic design which allows me to create visually appealing designs that enhance the overall user experience.</p>
-                    <a download="" href="assets/pdf/AaronPrellegera-CV.pdf" class="button button--flex me-4">
-                      Download Resume<i class="uil uil-download-alt button__icon"></i>
+                    <a download="" href="assets/pdf/AaronPrellegera-CV.pdf" className="button button--flex me-4">
+                      Download Resume<i className="uil uil-download-alt button__icon"></i>
                     </a>
-                    <a href="#contact" class="text-dark button--flex">
+                    <a href="#contact" className="text-dark button--flex">
                         Contact Me
                     </a>
-                    <div class="my-5">
+                    <div className="my-5">
                       <a  href="https://m.me/ore.wa.haruhiro" target="_blank"
-                            class="home__social-icon px-3">
-                          <i class="uil uil-facebook-messenger-alt"></i>
+                            className="home__social-icon px-3">
+                          <i className="uil uil-facebook-messenger-alt"></i>
                         </a>
 
-                        <a href="https://wa.me/message/HMLDVC5ST6J2G1" target="_blank" class="home__social-icon px-3">
-                        <i class="uil uil-whatsapp"></i>
+                        <a href="https://wa.me/message/HMLDVC5ST6J2G1" target="_blank" className="home__social-icon px-3">
+                        <i className="uil uil-whatsapp"></i>
                         </a>
 
-                        <a href="https://join.skype.com/invite/q7YWQejcIEuq" target="_blank" class="home__social-icon px-3">
-                        <i class="uil uil-skype-alt"></i>
+                        <a href="https://join.skype.com/invite/q7YWQejcIEuq" target="_blank" className="home__social-icon px-3">
+                        <i className="uil uil-skype-alt"></i>
                         </a>
                     </div>
                 </div>
