@@ -27,7 +27,7 @@ const Aboutsection = () =>{
                     <a download="" href="assets/pdf/AaronPrellegera-CV.pdf" className="button button--flex me-4">
                       Download Resume<i className="uil uil-download-alt button__icon"></i>
                     </a>
-                    <a href="#contact" className="text-dark button--flex">
+                    <a href="/contact" className="text-dark button--flex">
                         Contact Me
                     </a>
                     <div className="my-5">

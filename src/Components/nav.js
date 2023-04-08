@@ -83,7 +83,7 @@ function Header() {
               </Link>
             </li>
             <li className="nav__item">
-              <Link href="#contact" className={`nav__link ${isActive('/#contact') ? 'active-link' : ''}`}style={{ textDecoration: 'none' }}>
+              <Link href="/contact" className={`nav__link ${isActive('/contact') ? 'active-link' : ''}`}style={{ textDecoration: 'none' }}>
                 <i className="uil uil-message nav__icon"></i>Contactme
               </Link>
             </li>

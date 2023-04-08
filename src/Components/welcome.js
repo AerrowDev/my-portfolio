@@ -2,7 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.css'
 const Welcome = () => {
   return (
-    <div  class="home__img">
+    <div  className="home__img">
       <svg
         className="home__blob"
         viewBox="0 0 200 187"
