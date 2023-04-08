@@ -54,7 +54,7 @@ const Aboutqualification = () =>{
                             <span className="qualification__subtitle">Marcial O. Rañola Memorial School</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
-                                2016-2018
+                                2016 &ndash; 2018
                             </div>
                         </div>
                         <div>
@@ -76,7 +76,7 @@ const Aboutqualification = () =>{
                             <span className="qualification__subtitle">Bicol University Polangui Campus</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
-                                2018-2022
+                                2018 &ndash; 2022
                             </div>
                         </div>
                     </div>
@@ -88,7 +88,7 @@ const Aboutqualification = () =>{
                             <span className="qualification__subtitle">KodeGo</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
-                                2022-2023
+                                2022 &ndash; 2023
                             </div>
                         </div>
                         <div>
@@ -112,10 +112,10 @@ const Aboutqualification = () =>{
 
                         <div>
                             <h3 className="qualification__title">Immersion</h3>
-                            <span className="qualification__subtitle">LGU Guinobatan (Treasurer's Office)</span>
+                            <span className="qualification__subtitle">LGU Guinobatan (Treasurer&apos;s Office)</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
-                                Jan 15 - Jan 26
+                                Jan 15 &ndash; Jan 26
                             </div>
                         </div>
 
@@ -128,7 +128,7 @@ const Aboutqualification = () =>{
                             </span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
-                                2021-present
+                                2021 &ndash; present
                             </div>
                         </div>
                         <div>

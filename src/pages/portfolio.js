@@ -15,7 +15,7 @@ const PortfolioPage = () => {
         <PortfolioPages/>
           </main> 
            <Footer />
-           <script src="/assets/js/swiper-bundle.min.js"></script>
+         
       </>
     )
 }

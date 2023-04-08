@@ -26,7 +26,7 @@ const PortfolioPages = () =>{
                 <div className='row'>
                     <div className='col-lg-3 col-md-6 mb-3'>
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/mp1.png" alt="" class="portfolio__img " />
+                        <Image src="/assets/img/mp1.png" width={200} height={250} alt="project" class="portfolio__img " />
                         <div class="portfolio__data">
                                 <table>
                                     <tbody>
@@ -55,7 +55,7 @@ const PortfolioPages = () =>{
                     </div>
                     <div className='col-lg-3 col-md-6 mb-3'>
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/mp2.png" alt="" class="portfolio__img"/>
+                        <Image src="/assets/img/mp2.png" width={200} height={250} alt="project"  class="portfolio__img"/>
                         <div class="portfolio__data">
                                 <table>
                                     <tbody>
@@ -84,7 +84,7 @@ const PortfolioPages = () =>{
                     </div>
                     <div className='col-lg-3 col-md-6 mb-3'>
                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/personal-project1.png" alt="" class="portfolio__img"/>
+                        <Image src="/assets/img/personal-project1.png" width={200} height={250} alt="project"  class="portfolio__img"/>
 
                         <div class="portfolio__data">
                                 <table>
@@ -114,7 +114,7 @@ const PortfolioPages = () =>{
                     </div>
                     <div className='col-lg-3 col-md-6 mb-3'>
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/capstone.png" alt="" class="portfolio__img"/>
+                        <Image src="/assets/img/capstone.png" width={200} height={250} alt="project"  class="portfolio__img"/>
                         <div class="portfolio__data">
                                 <table>
                                     <tbody>
