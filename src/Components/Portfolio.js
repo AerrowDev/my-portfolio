@@ -65,12 +65,12 @@ const PortfolioPages = () =>{
     }
    // Get the <span> elements that close the modals
     var span3 = document.getElementsByClassName("close")[2];
-    span2.onclick = function() { 
+    span3.onclick = function() { 
     modal3.style.display = "none";
     }
    // Get the <span> elements that close the modals
-    var span3 = document.getElementsByClassName("close")[3];
-    span3.onclick = function() { 
+    var span4 = document.getElementsByClassName("close")[3];
+    span4.onclick = function() { 
     modal4.style.display = "none";
     }
 
