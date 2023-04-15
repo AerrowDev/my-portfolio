@@ -21,7 +21,7 @@ const Aboutsection = () =>{
                     <h1 className="home__title">Hi, I&apos;am Aaron
                     </h1>
                     <h3 className="home__subtitle">Web Developer &#124; Graphic Designer</h3>
-                    <p className="home__description"> I am a web developer with a passion for building beautiful and functional websites that provide a great user experience.
+                    <p className="home__description">a web developer with a passion for building beautiful and functional websites that provide a great user experience.
                      I specialize in using Next.js, a powerful framework for building React-based web applications. Additionally,
                      I have a background in graphic design which allows me to create visually appealing designs that enhance the overall user experience.</p>
                     <a download="" href="assets/pdf/AaronPrellegera-CV.pdf" className="button button--flex me-4">
