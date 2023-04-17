@@ -42,7 +42,7 @@ const Contactme = () =>{
                 </div>
             </div>
 
-            <form className="contact__form grid" action="/https://formsubmit.co/32f5e4f007b23de315ce19cec259e5ea" method="post">
+            <form className="contact__form grid" action="https://formsubmit.co/arondprellegera@email.com" method="POST">
                 <div className="contact__inputs grid">
                     <div className="contact__content">
                      <label for="" className="contact__label">Name</label> 
