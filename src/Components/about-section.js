@@ -18,11 +18,10 @@ const Aboutsection = () =>{
 
                 <div className="home__data">
                 <p className=" home__welcome text-muted text-uppercase "> Let&apos;s collaborate and bring our ideas to life.</p>
-                    <h1 className="home__title">Hi, I&apos;am Aaron
-                    </h1>
-                    <h3 className="home__subtitle">Web Developer</h3>
-                    <p className="home__description"> I am a web developer with a passion for building beautiful and functional websites that provide a great user experience.
-                   </p>
+                    <h1 className="home__title">Hi, I&apos;am Aaron  </h1>
+                    <h3 className="home__subtitle">Web Developer </h3>
+                    <p className="home__description">a web developer with a passion for building beautiful and functional websites that provide a great user experience.
+                     </p>
                     <a download="" href="assets/pdf/AaronPrellegera-CV.pdf" className="button button--flex me-4">
                       Download Resume<i className="uil uil-download-alt button__icon"></i>
                     </a>
