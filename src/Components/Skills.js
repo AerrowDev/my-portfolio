@@ -122,7 +122,7 @@
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name">Git</h3>
-                                    <span class="skills__number">80%</span>
+                                    <span class="skills__number">60%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage skills__git"></span>

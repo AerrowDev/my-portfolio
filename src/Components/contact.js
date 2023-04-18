@@ -42,7 +42,7 @@ const Contactme = () =>{
                 </div>
             </div>
 
-            <form className="contact__form grid" action="/https://formsubmit.co/32f5e4f007b23de315ce19cec259e5ea" method="post">
+            <form className="contact__form grid" action="https://formsubmit.co/arondprellegera@email.com" method="POST">
                 <div className="contact__inputs grid">
                     <div className="contact__content">
                      <label for="" className="contact__label">Name</label> 
@@ -64,8 +64,13 @@ const Contactme = () =>{
                     <div>
                         <button className="button button--flex"> Send Message  <i className="uil uil-message button__icon"></i> </button>
                     </div>
-                    <input type="hidden" name="_next" value="https://www.aaronprellegera.cf/"/>
+                    <input type="hidden" name="_next" value="https://my-portfolio-aerrowdev.vercel.app/contact"/>
                     <input type="hidden" name="_captcha" value="false"/>
+                    <input type="hidden" name="_autoresponse" value="Thank you for reaching out! Your message has been received and I will do my best to respond to you as soon as possible.
+
+In the meantime, please feel free to browse through my portfolio and learn more about my skills and experience. If your inquiry is urgent, please don't hesitate to follow up with me directly via email [insert your email address here] or phone [insert your phone number here].
+
+Thank you again for your interest, and I look forward to connecting with you soon!"></input>
             </form>
             </div>
        

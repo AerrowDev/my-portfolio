@@ -574,7 +574,7 @@ img {
         width: 0;
     }
     100% {
-        /* You need to change the percentage below to match the value in the corresponding <span> */
+     
         width: 90%;
     }
 }
@@ -604,7 +604,7 @@ img {
   width: 40%;
 }
 .skills__git{
-  width: 80%;
+  width: 60%;
 }
 .skills__github{
   width: 85%;
