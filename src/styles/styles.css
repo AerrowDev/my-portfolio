@@ -286,6 +286,7 @@ img {
 }
 
 .home__social-icon{
+  padding-left: 45px;
   font-size: 1.25rem;
   color: var(--first-color);
 }
