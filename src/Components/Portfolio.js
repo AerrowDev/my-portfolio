@@ -276,7 +276,7 @@ const PortfolioPages = () =>{
                                         </tr>
                                         <tr>
                                             <td class="py-2">
-                                            <a href="https://blog-site-uq6k.vercel.app/" class="button button--flex button--smal portfolio__button mt-2" target="_blank">
+                                            <a href="https://blog-site-aerrowdev-portfolio.vercel.app/" class="button button--flex button--smal portfolio__button mt-2" target="_blank">
                                                 Demo
                                                 <i class="uil uil-arrow-right button__icon"></i>
                                             </a>
