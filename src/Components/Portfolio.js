@@ -201,8 +201,8 @@ const PortfolioPages = () =>{
                                         </tr>
                                         <tr>
                                             <td class="py-2">
-                                            <a href="#" class="button button--flex button--smal portfolio__button isDisabled mt-2"  title="Under construction" target="_blank">
-                                                Demo
+                                            <a href="https://github.com/AerrowDev/Gamecom-laravel/" class="button button--flex button--smal portfolio__button mt-2" target="_blank">
+                                                Github
                                                 <i class="uil uil-arrow-right button__icon"></i>
                                             </a>
                                             </td>
@@ -217,10 +217,10 @@ const PortfolioPages = () =>{
                      {/*  Portfolio 4 */}
                     <div className='col-lg-3 col-md-6 mb-3'>
                     <div class="portfolio__content grid swiper-slide">
-                        <Image id ="myImg4" src="/assets/img/capstone.png" width={200} height={250} alt="Capstone - GameCom -  (Forum Website)"  class="portfolio__img"/>
+                        <Image id ="myImg4" src="/assets/img/gamecom-registration.png" width={200} height={250} alt=" GameCom - Login Section"  class="portfolio__img"/>
                             <div id="myModal4" class="modal">
                             <span class="close">&times;</span>
-                            <Image class="modal-content" id="img01-4" alt="Capstone - GameCom -  (Forum Website)"/>
+                            <Image class="modal-content" id="img01-4" alt=" GameCom - Login Section"/>
                             <div className='captions-alt' id="caption4"></div>
                             </div>
                         <div class="portfolio__data">
@@ -233,12 +233,12 @@ const PortfolioPages = () =>{
                                         </tr>
                                         <tr>
                                         <td>
-                                        HTML, CSS Bootstrap, JS, and Github.
+                                        HTML, CSS, PHP, MySQL, and 000Webhost.
                                             </td>
                                         </tr>
                                         <tr>
                                             <td class="py-2">
-                                            <a href="http://www.gamecom.store/home" class="button button--flex button--smal portfolio__button mt-2" target="_blank">
+                                            <a href="https://gameconwd33p.000webhostapp.com/" class="button button--flex button--smal portfolio__button mt-2" target="_blank">
                                                 Demo
                                                 <i class="uil uil-arrow-right button__icon"></i>
                                             </a>

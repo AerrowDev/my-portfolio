@@ -22,10 +22,10 @@ const Aboutsection = () =>{
                     <h3 className="home__subtitle">Web Developer </h3>
                     <p className="home__description">a web developer with a passion for building beautiful and functional websites that provide a great user experience.
                      </p>
-                    <a download="" href="assets/pdf/AaronPrellegera-CV.pdf" className="button button--flex me-4">
+                    <a download="" href="assets/pdf/AaronPrellegera_CV.pdf" className="button button--flex me-4">
                       Download Resume<i className="uil uil-download-alt button__icon"></i>
                     </a>
-                    <a href="/contact" className="text-dark button--flex">
+                    <a href="contact/" className="text-dark button--flex">
                         Contact Me
                     </a>
                     <div className="my-5">
