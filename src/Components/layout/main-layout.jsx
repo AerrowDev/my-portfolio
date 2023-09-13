@@ -2,13 +2,13 @@ import React from 'react'
 import Header from '@/Components/nav'
 import {Footer} from 'src/Components/footer'
 
-const mainlayout = ({children}) => {
+export const Mainlayout = ({children}) => {
     return (
        <>
        <Header/>
-        {children}
+      <main>{children}</main>  
        <Footer/>
        </>
-    )
-}
-export default mainlayout;
+    );
+};
+export default Mainlayout;
