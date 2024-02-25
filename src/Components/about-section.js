@@ -22,25 +22,25 @@ const Aboutsection = () =>{
                     <h3 className="home__subtitle">Web Developer </h3>
                     <p className="home__description">a web developer with a passion for building beautiful and functional websites that provide a great user experience.
                      </p>
-                    <a download="" href="assets/pdf/AaronPrellegera_CV.pdf" className="button button--flex me-4">
+                    <Link download href="/assets/pdf/Aaron-Prellegerav1.pdf" className="button button--flex me-4">
                       Download Resume<i className="uil uil-download-alt button__icon"></i>
-                    </a>
-                    <a href="contact/" className="text-dark button--flex">
+                    </Link>
+                    <Link href="contact/" className="text-dark button--flex">
                         Contact Me
-                    </a>
+                    </Link>
                     <div className="my-5">
-                      <a  href="https://m.me/ore.wa.haruhiro" target="_blank"
+                      <Link  href="https://m.me/ore.wa.haruhiro" target="_blank"
                             className="home__social-icon px-3">
                           <i className="uil uil-facebook-messenger-alt"></i>
-                        </a>
+                        </Link>
 
-                        <a href="https://wa.me/message/HMLDVC5ST6J2G1" target="_blank" className="home__social-icon px-3">
+                        <Link href="https://wa.me/message/HMLDVC5ST6J2G1" target="_blank" className="home__social-icon px-3">
                         <i className="uil uil-whatsapp"></i>
-                        </a>
+                        </Link>
 
-                        <a href="https://join.skype.com/invite/q7YWQejcIEuq" target="_blank" className="home__social-icon px-3">
+                        <Link href="https://join.skype.com/invite/q7YWQejcIEuq" target="_blank" className="home__social-icon px-3">
                         <i className="uil uil-skype-alt"></i>
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 

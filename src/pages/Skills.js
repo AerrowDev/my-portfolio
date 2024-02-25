@@ -13,10 +13,8 @@ const SkillPage = () => {
      
          </Head>
           <main>
-          <Header/>
        <SkillsPage/>
           </main>
-           <Footer />
       </>
     )
 }

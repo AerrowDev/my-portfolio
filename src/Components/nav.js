@@ -3,7 +3,8 @@ import {Navimenu} from '/src/utilities/header'
 import styles from '@/styles/Home.module.css'
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
-
+import { AiOutlineAppstore, AiOutlineHome } from "react-icons/ai";
+import { IoMdClose } from "react-icons/io";
 function Header() {
   const router = useRouter();
 
@@ -64,7 +65,7 @@ function Header() {
           <ul className="nav__list grid ">
             <li className="nav__item">
               <Link href="/" className={`nav__link ${isActive('/') ? 'active-link' : ''} ` }style={{ textDecoration: 'none' }}>
-                <i className="uil uil-estate nav__icon "></i>Home
+                <AiOutlineHome className="uil uil-estate nav__icon  " />Home
               </Link>
             </li>
             <li className="nav__item ">
@@ -88,12 +89,13 @@ function Header() {
               </Link>
             </li>
           </ul>
-          <i className="uil uil-times nav__close nav__icon" id="nav-close"></i>
+
+        <IoMdClose  className="uil uil-times nav__close nav__icon" id="nav-close"/> s
         </div>
 
         <div className="nav__btns">
           <div className="nav__toggle" id="nav-toggle">
-            <i className="uil uil-apps nav__icon"></i>
+          <AiOutlineAppstore />
           </div>
         </div>
       </nav>

@@ -14,10 +14,9 @@ const ContactPage = () => {
       
          </Head>
           <main>
-          <Header/>
         <Contactme/>
           </main> 
-           <Footer />
+       
          
       </>
     )

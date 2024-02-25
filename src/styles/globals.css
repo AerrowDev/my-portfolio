@@ -1,2 +1,14 @@
 /* global.css */
 @import url('styles.css');
+
+section {
+    min-height: 85dvh;
+}
+
+.contact-email {
+    text-decoration: none;
+}
+
+.contact-email:hover {
+    text-decoration: underline;
+}

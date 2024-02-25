@@ -13,11 +13,9 @@ const PortfolioPage = () => {
         
          </Head>
           <main>
-          <Header/>
+          {/* <Header/> */}
         <PortfolioPages/>
           </main> 
-           <Footer />
-         
       </>
     )
 }

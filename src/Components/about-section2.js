@@ -42,7 +42,7 @@ const Aboutsection2 = () =>{
                 </div>
 
                 <div className="about__buttons">
-                    <a download="" href="assets/pdf/AaronPrellegera-CV.pdf" className="button button--flex">
+                    <a download="" href="/assets/pdf/Aaron-Prellegerav1.pdf" className="button button--flex">
                        Download Resume <i className="uil uil-download-alt button__icon"></i>
                     </a>
                 </div>

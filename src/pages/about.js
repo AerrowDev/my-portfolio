@@ -14,12 +14,10 @@ const AboutUsPage = () => {
      
          </Head>
           <main>
-          
-          <Header/>
+
        <Aboutsection2/>
        <Aboutqualification/>
           </main>
-           <Footer />
 
       </>
     )

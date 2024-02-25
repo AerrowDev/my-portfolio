@@ -20,7 +20,7 @@ const Contactme = () =>{
 
                     <div>
                         <h3 className="contact__title">Call Me</h3>
-                        <span className="contact__subtitle">+63977-616-2529</span>
+                      <Link href={"tel:+639771162529"} className='contact-email'> <span className="contact__subtitle">+63977-616-2529</span></Link> 
                     </div>
                 </div>
                 <div className="contact__information">
@@ -28,8 +28,8 @@ const Contactme = () =>{
 
                     <div>
                         <h3 className="contact__title">Email</h3>
-                        <span className="contact__subtitle">sgaeprellegera@gmail.com</span> <br/>
-                         <span className="contact__subtitle">prellegeraaaron@yahoo.com</span>
+                       <a href='mailto:arondprellegera@gmail.com' className='contact-email'><span className="contact__subtitle">arondprellegera@gmail.com</span></a>  <br/>
+                         {/* <span className="contact__subtitle">prellegeraaaron@yahoo.com</span> */}
                     </div>
                 </div>
                 <div className="contact__information">
@@ -37,7 +37,8 @@ const Contactme = () =>{
 
                     <div>
                         <h3 className="contact__title">Location</h3>
-                        <span className="contact__subtitle">Inamnan Grande, Guinobatan Albay</span>
+                        <span className="contact__subtitle">Cabog-Cabog, Pilar Bataan</span>
+                        {/* <span className="contact__subtitle">Inamnan Grande, Guinobatan Albay</span> */}
                     </div>
                 </div>
             </div>

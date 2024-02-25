@@ -128,7 +128,7 @@ const Aboutqualification = () =>{
                             </span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
-                                2021 &ndash; present
+                                2021 &ndash; 2022
                             </div>
                         </div>
                         <div>
@@ -142,18 +142,40 @@ const Aboutqualification = () =>{
 
                         <div>
                             <span className="qualification__rounder"></span>
-
+                            <span className="qualification__line"></span>
                         </div>
 
-                        {/* <div>
-                            <h3 className="qualification__title">Web Developer</h3>
+                        <div>
+                            <h3 className="qualification__title">Motion Graphic Designer</h3>
                             <span className="qualification__subtitle">Freelance</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
-                                2022-Present
+                                2022-2023
                             </div>
+                        </div>
+  <div></div>
+                    </div>
+                    
+                       <div className="qualification__data">
+                        
+                        <div>
+                            <h3 className="qualification__title">Web Developer</h3>
+                                <span className="qualification__subtitle">Central One Bataan PH Inc.
+                            </span>
+                            <div className="qualification__calender">
+                                <i className="uil uil-calendar-alt"></i>
+                                Sept 2023 &ndash; present
+                            </div>
+                        </div>
+                        {/* <div>
+                            <span className="qualification__rounder"></span>
+                            <span classNa
+                            me="qualification__line"></span>
                         </div> */}
+                        <div>
+                            <span className="qualification__rounder"></span>
 
+                        </div>
                     </div>
 
                 </div>
