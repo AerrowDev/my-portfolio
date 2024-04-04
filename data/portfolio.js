@@ -1,6 +1,13 @@
 export const Portfolio = [
     {
         id: 1,
+        title: "WatchFlex",
+        img: "/assets/img/Screenshot 2024-04-04 091119.png",
+        tools: ["Next.JS", "Vercel", "TypeScript", "Tailwind", "DaisyUI", "Git"],
+        link: "https://apt-api-fetching.vercel.app/movies",
+    },
+    {
+        id: 1,
         title: "Spring Ruin",
         img: "/assets/img/mp1.png",
         tools: ["HTML", "CSS", "JavaScript", "Bootstrap", "Git", "GitHub"],
