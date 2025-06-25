@@ -609,6 +609,9 @@ img {
 .skills__react-js {
   width: 45%;
 }
+.skills__wordpress {
+  width: 85%;
+}
 
 .skills__next-js {
   width: 45%;
@@ -1320,7 +1323,7 @@ img {
   .portfolio__container,
   .contact__container,
   .footer__container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .qualification__sections {
@@ -1423,7 +1426,7 @@ img {
   }
 
   .about__buttons {
-    justify-content: initial;
+    justify-content: center;
   }
 
   .qualification__tabs {

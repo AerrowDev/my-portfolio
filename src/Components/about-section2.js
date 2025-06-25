@@ -11,43 +11,39 @@ const Aboutsection2 = () => {
             <h2 className="section__title">About Me </h2>
             <span className="section__subtitle">My Introduction</span>
 
-            <div className="about__container container grid">
-                <img
+            <div className="about__container container grid " style={{placeItems: "center"}}>
+                {/* <img
                     src="assets/img/2x2 23 - final.jpg"
                     alt=""
                     className="about__img"
-                />
+                /> */}
                 <div className="about__data">
                     <p className="about__description">
-                        I am an experienced web developer and graphic designer
-                        with a passion for creating visually appealing and
-                        functional websites and designs. I have expertise in
-                        HTML, CSS, JavaScript, and the Adobe Creative Suite, and
-                        have expanded my skills to include several popular
-                        frameworks such as Laravel, Next.js, and React. I have
-                        successfully completed various projects using these
-                        frameworks and I bring projects from concept to
-                        completion with my technical and creative abilities. My
-                        goal is to deliver high-quality work that meets the
-                        needs of clients and exceeds their expectations.
+                    I'm a Web Developer and Software Test Engineer with experience in dynamic and
+static websites focused on accessibility, performance, and SEO. I’ve worked
+closely with backend developers, UI/UX teams, and QA to ensure high-quality
+deliverables across web platforms. My background includes developing
+responsive front-ends, managing CMS systems, performing software testing, and
+contributing to live streaming and branding/blog projects. I'm passionate about
+clean code, quality assurance, and continuous growth.
                     </p>
                     <div className="about__info">
                         <div>
-                            <span className="about__info-title">01</span>
+                            <span className="about__info-title">02</span>
                             <span className="about__info-name">
                                 Year/s <br /> experience
                             </span>
                         </div>
 
                         <div>
-                            <span className="about__info-title">05</span>
+                            <span className="about__info-title">15</span>
                             <span className="about__info-name">
                                 Completed <br /> Project
                             </span>
                         </div>
 
                         <div>
-                            <span className="about__info-title">02</span>
+                            <span className="about__info-title">03</span>
                             <span className="about__info-name">
                                 Companies <br /> worked
                             </span>
@@ -57,7 +53,7 @@ const Aboutsection2 = () => {
                     <div className="about__buttons">
                         <a
                             download=""
-                            href="/assets/pdf/AaronPrellegeraResumeupdated.pdf"
+                            href="/assets/pdf/CV_Prellegera-AaronD.pdf"
                             className="button button--flex"
                         >
                             Download Resume{" "}

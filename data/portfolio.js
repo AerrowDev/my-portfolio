@@ -1,6 +1,27 @@
 export const Portfolio = [
     {
         id: 1,
+        title: "Angels Bureau",
+        img: "/assets/img/portfolio/angels.png",
+        tools: ["Next.JS", "NodeJS","Docker","MongoDB","NodeMailer", "TypeScript", "Tailwind", "Wordpress", "Git", "GitHub"],
+        link: "https://www.angels-bureau.com",
+    },
+    {
+        id: 1,
+        title: "Sports Live Hub",
+        img: "/assets/img/portfolio/slh.png",
+        tools: ["Next.JS", "NodeJS","Docker","MongoDB","NodeMailer", "TypeScript", "Tailwind", "Wordpress", "Git", "GitHub"],
+        link: "https://www.sportslivehub.com",
+    },
+    {
+        id: 1,
+        title: "Citinow Malaysia",
+        img: "/assets/img/portfolio/cn.png",
+        tools: ["Next.JS", "Vercel", "TypeScript", "Tailwind", "Wordpress", "Git", "GitHub", "GraphQL", "Apollo"],
+        link: "https://www.citinowmalaysia.com",
+    },
+    {
+        id: 1,
         title: "WatchFlex",
         img: "/assets/img/Screenshot 2024-04-04 091119.png",
         tools: ["Next.JS", "Vercel", "TypeScript", "Tailwind", "DaisyUI", "Git"],

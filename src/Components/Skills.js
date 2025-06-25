@@ -41,7 +41,7 @@
                             
                             <div>
                                 <h1 class="skills__title">Web developer</h1>
-                                <span class="skills__subtitle">More than 1 year</span>
+                                <span class="skills__subtitle">More than 2 year</span>
                             </div>
                         
                         </div>
@@ -89,6 +89,15 @@
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage skills__react-js"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">WordPress</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__wordpress"></span>
                                 </div>
                             </div>
                             <div class="skills__data">

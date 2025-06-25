@@ -47,7 +47,23 @@ const Aboutqualification = () =>{
             <div className="qualification__sections">
            
                 <div className="qualification__content qualification__active" data-content id="education">
-                    
+                <div className="qualification__data">
+                        <div> </div>
+
+                        <div>
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
+                        </div>
+
+                        <div>
+                            <h3 className="qualification__title">SQA Manual Software Testing</h3>
+                            <span className="qualification__subtitle">MST Connect</span>
+                            <div className="qualification__calender">
+                                <i className="uil uil-calendar-alt"></i>
+                               2025
+                            </div>
+                        </div>
+                    </div>
                     <div className="qualification__data">
                         <div>
                             <h3 className="qualification__title">Information and Communication Technology</h3>
@@ -164,7 +180,7 @@ const Aboutqualification = () =>{
                             </span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
-                                Sept 2023 &ndash; present
+                                Sept 2023 &ndash; Nov 2024
                             </div>
                         </div>
                         {/* <div>

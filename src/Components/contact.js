@@ -37,8 +37,8 @@ const Contactme = () =>{
 
                     <div>
                         <h3 className="contact__title">Location</h3>
-                        <span className="contact__subtitle">Cabog-Cabog, Pilar Bataan</span>
-                        {/* <span className="contact__subtitle">Inamnan Grande, Guinobatan Albay</span> */}
+                        {/* <span className="contact__subtitle">Cabog-Cabog, Pilar Bataan</span> */}
+                        <span className="contact__subtitle">Inamnan Grande, Guinobatan Albay</span>
                     </div>
                 </div>
             </div>

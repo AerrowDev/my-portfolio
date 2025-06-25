@@ -18,15 +18,14 @@ const Aboutsection = () => {
                             Let&apos;s collaborate and bring our ideas to life.
                         </p>
                         <h1 className="home__title">Hi, I&apos;am Aaron </h1>
-                        <h3 className="home__subtitle">Web Developer </h3>
+                        <h3 className="home__subtitle">Web Developer / QA Engineer </h3>
                         <p className="home__description">
-                            a web developer with a passion for building
-                            beautiful and functional websites that provide a
-                            great user experience.
+                        I'm a Web Developer and Software Test Engineer with experience in dynamic and
+                        static websites focused on accessibility, performance, and SEO.
                         </p>
                         <Link
                             download
-                            href="/assets/pdf/AaronPrellegeraResumeupdated.pdf"
+                            href="/assets/pdf/CV_Prellegera-AaronD.pdf"
                             className="button button--flex me-4"
                         >
                             Download Resume
